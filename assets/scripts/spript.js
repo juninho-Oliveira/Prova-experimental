@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
         valorProduto.textContent = produtos.ValorProduto;
 
         tr.appendChild(nomeProduto);
-        tr.appendChild(valorProduto);
-        tr.appendChild(descicaoProduto)
+        tr.appendChild(descicaoProduto);
+        tr.appendChild(valorProduto)
 
         tr.appendChild(div);
         div.appendChild(excluir);
